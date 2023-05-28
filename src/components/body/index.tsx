@@ -1,11 +1,11 @@
-import {FC} from "react";
+import { FC } from "react";
 import "./styles.css";
-let Body:FC=()=>{
-    return(
-        <div className="body">
-<p>body</p>
+let Body: FC = () => {
+    return (
+        <div className="secondary" style={{height:'100%'}}>
+            <p>body</p>
         </div>
-        
+
 
     );
 }
