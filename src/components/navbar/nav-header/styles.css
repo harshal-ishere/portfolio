@@ -1,0 +1,10 @@
+.navbar-heading{
+    border: 1px solid hsla(0,0%,100%,.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding:10px;
+    font-size: 15px;
+} 
+.headers-initial{
+    font-size: 18px;
+}
