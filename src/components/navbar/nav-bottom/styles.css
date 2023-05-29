@@ -1,0 +1,28 @@
+.nav-bottom{
+    padding:10px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border-radius: 5px;
+}
+.nav-bottom:hover{
+    background-color: rgba(52,53,65);
+}
+.bottom-txt{
+    display: inline;
+    max-height: 1rem;
+    padding-left:10px
+}
+.vert-nav-img{
+    display: inline;
+     position: relative;
+      bottom: 1px;
+}
+.bottom-content{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+.nav-bot-hr{
+    width:115%;
+}
