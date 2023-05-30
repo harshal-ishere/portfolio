@@ -1,8 +1,8 @@
 .nav-bottom{
-    padding:10px;
+    display:block;
+    padding:10px 45px 10px 10px;
     text-decoration: none;
     color: inherit;
-    display: block;
     border-radius: 5px;
 }
 .nav-bottom:hover{
@@ -15,8 +15,8 @@
 }
 .vert-nav-img{
     display: inline;
-     position: relative;
-      bottom: 1px;
+    position: relative;
+    bottom: 1px;
 }
 .bottom-content{
     position: absolute;
@@ -24,5 +24,5 @@
     margin-bottom: 10px;
 }
 .nav-bot-hr{
-    width:115%;
+    width:100%;
 }
