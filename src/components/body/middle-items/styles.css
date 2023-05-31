@@ -1,0 +1,17 @@
+.middleItems{
+    padding-left:300px;
+    padding-right:300px;
+}
+.middleItems .items-img .col{
+    padding:12px;
+}
+.middleItems .items-img .col p{
+    padding-top:10px;
+    font-size: 1.2rem;
+    color: rgba(236,236,241);
+}
+.middleItems .row .col{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+}

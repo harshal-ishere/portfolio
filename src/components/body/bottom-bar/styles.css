@@ -1,0 +1,8 @@
+.bottom-bar{
+    text-align: center;
+    margin-top: 130px;
+}
+.body-search-bar-bottom{
+    background-color: hsla(0,0%,100%,.05);
+    border-radius: 0.375rem;
+}

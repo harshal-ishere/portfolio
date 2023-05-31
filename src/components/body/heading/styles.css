@@ -1,0 +1,10 @@
+.body-header{
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 3rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    gap: 0.5rem;
+    color: rgba(236,236,241);
+}
