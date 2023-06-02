@@ -1,6 +1,8 @@
 import { FC } from "react";
 import "./styles.css";
-import MiddleItemsElements from "./middle-items-elements";
+import MiddleItemsStatic from "./middle-items-static";
+import MiddleItemsDynamic from "./middle-items-dynamic";
+
 let MiddleItems: FC = () => {
     return (
         <div className="middleItems text-center">
@@ -20,35 +22,35 @@ let MiddleItems: FC = () => {
             </div>
             <div className="row">
                 <div className="col">
-                    <MiddleItemsElements data="hello my dear friend how are you??" />
+                    <MiddleItemsDynamic data="Search for 'Skills' to visit skills page" />
                 </div>
                 <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
+                <MiddleItemsStatic data="Always stays up to date with the new Technology." />
                 </div>
                 <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
-                </div>
-            </div>
-            <div className="row">
-                <div className="col">
-                    <MiddleItemsElements data="hello my dear friend how are you??" />
-                </div>
-                <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
-                </div>
-                <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
+                <MiddleItemsStatic data="Can't always learn all new Technology!" />
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                    <MiddleItemsElements data="hello my dear friend how are you??" />
+                    <MiddleItemsDynamic data="Search for 'Project' to visit project page" />
                 </div>
                 <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
+                <MiddleItemsStatic data="Gives more then expected results to his Clients." />
                 </div>
                 <div className="col">
-                <MiddleItemsElements data="hello my dear friend how are you??" />
+                <MiddleItemsStatic data="Low on some communictaion skills." />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
+                    <MiddleItemsDynamic data="Search for 'Blogs' to visit blogs page" />
+                </div>
+                <div className="col">
+                <MiddleItemsStatic data="My approach is to optimise and solve problems." />
+                </div>
+                <div className="col">
+                <MiddleItemsStatic data="Sometime couldn't give maximum efforts." />
                 </div>
             </div>
         </div>

@@ -3,12 +3,12 @@ import "./styles.css"
 interface incomingProps{
     data:string
 }
-let MiddleItemsElements: FC<incomingProps> = (props) => {
+let MiddleItemsStatic: FC<incomingProps> = (props) => {
     return (
-        <div className="middle-items-elements">
+        <div className="middle-items-static">
             <p>{props.data}</p>
         </div>
     )
 }
 
-export default MiddleItemsElements;
+export default MiddleItemsStatic;
