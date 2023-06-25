@@ -19,10 +19,5 @@
     bottom: 1px;
 }
 .bottom-content{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-}
-.nav-bot-hr{
-    width:100%;
+    margin-top:335px;
 }
